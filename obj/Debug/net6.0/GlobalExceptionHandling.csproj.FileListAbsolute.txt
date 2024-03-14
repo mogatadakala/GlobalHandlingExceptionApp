@@ -66,3 +66,7 @@ C:\Personal\.Net Interview Questions\.NET Practice\GlobalExceptionHandling\obj\D
 C:\Personal\.Net Interview Questions\.NET Practice\GlobalExceptionHandling\obj\Debug\net6.0\GlobalExceptionHandling.pdb
 C:\Personal\.Net Interview Questions\.NET Practice\GlobalExceptionHandling\obj\Debug\net6.0\GlobalExceptionHandling.genruntimeconfig.cache
 C:\Personal\.Net Interview Questions\.NET Practice\GlobalExceptionHandling\obj\Debug\net6.0\ref\GlobalExceptionHandling.dll
+C:\Personal\.Net Interview Questions\.NET Practice\GlobalExceptionHandling\bin\Debug\net6.0\nlog.config
+C:\Personal\.Net Interview Questions\.NET Practice\GlobalExceptionHandling\bin\Debug\net6.0\NLog.dll
+C:\Personal\.Net Interview Questions\.NET Practice\GlobalExceptionHandling\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Personal\.Net Interview Questions\.NET Practice\GlobalExceptionHandling\bin\Debug\net6.0\NLog.Web.AspNetCore.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ci6gZ7noMI6QBCAvpr1EvZu7zXN6pb7+amPkO2hTpVEsqWdkh5uE6tfz7GX/tU3qoj+fPKKy2ptPodKDIHaezw==",
+  "dgSpecHash": "4k6tL6WcVBYrlbvPrMj9XOjBNYSu2DRIRBKqNYTzGMzT2qhsqLAVncqFkYPEdYySkkYN6do1CpKzzKDptTGEDg==",
   "success": true,
   "projectFilePath": "C:\\Personal\\.Net Interview Questions\\.NET Practice\\GlobalExceptionHandling\\GlobalExceptionHandling.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,9 @@
     "C:\\Users\\durga\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\durga\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\durga\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\durga\\.nuget\\packages\\nlog\\5.2.8\\nlog.5.2.8.nupkg.sha512",
+    "C:\\Users\\durga\\.nuget\\packages\\nlog.extensions.logging\\5.3.8\\nlog.extensions.logging.5.3.8.nupkg.sha512",
+    "C:\\Users\\durga\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.8\\nlog.web.aspnetcore.5.3.8.nupkg.sha512",
     "C:\\Users\\durga\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\durga\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\durga\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

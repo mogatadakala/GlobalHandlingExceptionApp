@@ -2,10 +2,19 @@ using GlobalExceptionHandling.Data;
 using GlobalExceptionHandling.Middleware;
 using GlobalExceptionHandling.Models;
 using Microsoft.EntityFrameworkCore;
+using NLog;
+using NLog.Web;
+using NLog.Extensions.Logging;
 
+var logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddLogging(loggingBuilder =>
+{
+    loggingBuilder.ClearProviders();
+    loggingBuilder.AddNLog();
+});
 builder.Services.AddScoped<IProductService,ProductServicecs>();
 builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("GlobalExcept")));
 builder.Services.AddControllers();
@@ -23,7 +32,7 @@ if (app.Environment.IsDevelopment())
 }
 app.UseMiddleware<GlobalErrorHandlingMiddleware>();
 app.UseHttpsRedirection();
-
+logger.Info("Started");
 app.UseAuthorization();
 
 app.MapControllers();
